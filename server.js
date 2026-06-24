@@ -3,7 +3,7 @@ const mongoose = require("mongoose")
 const dotenv = require("dotenv")
 dotenv.config()
 // Create an instance for express 
-const app = express()
+const app =   express()
 // to use express data in json format
 app.use(express.json())
 //  To establish the MONGODb caonnection
